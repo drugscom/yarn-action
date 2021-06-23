@@ -1,0 +1,5 @@
+name: 'Yarn'
+description: 'Run yarn package manager'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
