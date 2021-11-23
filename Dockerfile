@@ -1,4 +1,4 @@
-FROM docker.io/library/alpine:3.14.2
+FROM docker.io/library/alpine:3.14.3
 
 LABEL 'com.github.actions.name'='Yarn'
 LABEL 'com.github.actions.description'='Run yarn package manager'
