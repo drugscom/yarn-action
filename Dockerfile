@@ -1,4 +1,4 @@
-FROM alpine:3.15.0
+FROM alpine:3.15.1
 
 LABEL 'com.github.actions.name'='Yarn'
 LABEL 'com.github.actions.description'='Run yarn package manager'
