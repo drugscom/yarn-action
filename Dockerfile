@@ -5,6 +5,7 @@ LABEL 'com.github.actions.description'='Run yarn package manager'
 
 RUN apk --no-cache add \
     git=~2 \
+    python3=~3 \
     yarn=~1
 
 COPY entrypoint.sh /entrypoint.sh
